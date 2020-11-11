@@ -1,4 +1,4 @@
-package com.zyh.smalldemo
+package com.zyh.spark
 
 import org.apache.spark.SparkConf
 import org.apache.spark.SparkContext

@@ -73,7 +73,6 @@
     <build>
         <defaultGoal>install</defaultGoal>
         <sourceDirectory>src/main/scala</sourceDirectory>
-
         <plugins>
             <!-- the Maven compiler plugin will compile Java source files -->
             <plugin>
@@ -139,7 +138,7 @@
                 <artifactId>exec-maven-plugin</artifactId>
                 <version>1.6.0</version>
                 <configuration>
-                    <mainClass>com.xtd.spark.MyRouteMain</mainClass>
+                    <mainClass>com.zyh.spark.WordCount</mainClass>
                 </configuration>
             </plugin>
 

@@ -72,7 +72,8 @@
 
     <build>
         <defaultGoal>install</defaultGoal>
-        <sourceDirectory>src/main/scala</sourceDirectory>
+        <sourceDirectory>src/main</sourceDirectory>
+
         <plugins>
             <!-- the Maven compiler plugin will compile Java source files -->
             <plugin>

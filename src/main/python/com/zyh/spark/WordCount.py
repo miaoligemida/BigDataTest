@@ -27,5 +27,5 @@ if __name__=="__main__":
     input = sys.argv[0]
     output = sys.argv[1]
     conf = SparkConf().setAppName("WordCount").setMaster("spark://master:7077")
-    sc = SparkContext(conf)
+    sc = SparkContext(conf=conf)
     main(sc,input,output)

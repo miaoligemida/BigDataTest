@@ -3,6 +3,8 @@
 from pyspark import SparkConf, SparkContext
 import sys
 import jieba
+import findspark
+findspark.init()
 
 def split(line):
     words = jieba.cut(line.strip().split(" ")[1])

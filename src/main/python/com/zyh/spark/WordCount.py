@@ -1,6 +1,7 @@
 #-*-coding:utf-8-*-
 
-
+import findspark
+findspark.init()
 from pyspark import SparkConf, SparkContext
 import sys
 
